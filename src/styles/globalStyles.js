@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import 'react-toastify/dist/ReactToastify.css'
 
 export default createGlobalStyle`
     *{
@@ -6,6 +7,7 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing:border-box;
         font-family:'Roboto';
+        outline: none;
     }
 
 `

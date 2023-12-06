@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom'
 
+import Home from '../Container/Home'
 import Login from '../Container/Login'
 import Register from '../Container/register'
-import Home from '../Home'
 import PrivateRoute from './private-routes'
 
 function Rota() {

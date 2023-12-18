@@ -22,7 +22,7 @@ import {
 } from './styles'
 
 function Login() {
-  const history = useNavigate()
+  const navigate = useNavigate()
   const { putUserData } = useUser()
 
   const schema = Yup.object().shape({
@@ -56,7 +56,7 @@ function Login() {
     putUserData(data)
 
     setTimeout(() => {
-      history.push('/')
+      navigate('/')
     }, 1000)
   }
   return (
